@@ -14,6 +14,9 @@
 		CEE193272B59D2780062B610 /* ClockTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE193262B59D2780062B610 /* ClockTimerTests.swift */; };
 		CEE193312B59D2780062B610 /* ClockTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE193302B59D2780062B610 /* ClockTimerUITests.swift */; };
 		CEE193332B59D2780062B610 /* ClockTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE193322B59D2780062B610 /* ClockTimerUITestsLaunchTests.swift */; };
+		CEE193402B59D29F0062B610 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1933F2B59D29F0062B610 /* CountDownView.swift */; };
+		CEE193422B59D2F70062B610 /* DateComponentsFormatter+CounterFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE193412B59D2F70062B610 /* DateComponentsFormatter+CounterFormat.swift */; };
+		CEE193442B59D3790062B610 /* CountUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE193432B59D3790062B610 /* CountUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		CEE1932C2B59D2780062B610 /* ClockTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE193302B59D2780062B610 /* ClockTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTimerUITests.swift; sourceTree = "<group>"; };
 		CEE193322B59D2780062B610 /* ClockTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE1933F2B59D29F0062B610 /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		CEE193412B59D2F70062B610 /* DateComponentsFormatter+CounterFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponentsFormatter+CounterFormat.swift"; sourceTree = "<group>"; };
+		CEE193432B59D3790062B610 /* CountUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +101,13 @@
 		CEE193132B59D2760062B610 /* ClockTimer */ = {
 			isa = PBXGroup;
 			children = (
-				CEE193142B59D2760062B610 /* ClockTimerApp.swift */,
-				CEE193162B59D2760062B610 /* ContentView.swift */,
 				CEE193182B59D2780062B610 /* Assets.xcassets */,
 				CEE1931A2B59D2780062B610 /* ClockTimer.entitlements */,
+				CEE193142B59D2760062B610 /* ClockTimerApp.swift */,
+				CEE193162B59D2760062B610 /* ContentView.swift */,
+				CEE1933F2B59D29F0062B610 /* CountDownView.swift */,
+				CEE193432B59D3790062B610 /* CountUpView.swift */,
+				CEE193412B59D2F70062B610 /* DateComponentsFormatter+CounterFormat.swift */,
 				CEE1931B2B59D2780062B610 /* Preview Content */,
 			);
 			path = ClockTimer;
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE193422B59D2F70062B610 /* DateComponentsFormatter+CounterFormat.swift in Sources */,
 				CEE193172B59D2760062B610 /* ContentView.swift in Sources */,
 				CEE193152B59D2760062B610 /* ClockTimerApp.swift in Sources */,
+				CEE193442B59D3790062B610 /* CountUpView.swift in Sources */,
+				CEE193402B59D29F0062B610 /* CountDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

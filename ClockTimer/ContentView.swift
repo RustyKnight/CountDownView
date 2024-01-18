@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let anchorDate = Date()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            CountUpView(from: anchorDate)
+                .padding()
+            CountDownView(desiredDuration: Calendar.current.date(byAdding: .minute, value: 5, to: anchorDate)!)
+                .padding()
         }
         .padding()
     }
